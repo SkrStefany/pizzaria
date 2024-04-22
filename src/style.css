@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Alice&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+    font-family: "Alice", "Helvetica Neue", Helvetica, sans-serif;
+}
+.container {
+    width: 100vw;
+    height: 100vh;
+    background-image: url(img/banner1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+   
+}
+/*---------navegação-------------*/
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+nav ul {
+    display: flex;
+    margin-top: 20px;
+    margin-left: 450px;
+    list-style: none;
+    
+}
+nav ul li {
+    padding-left: 60px;
+    font-size: 30px;
+}
+
+/*---------conteudo principal-------------*/
+h1 {
+    text-align: center;
+    padding-top: 70px;
+    margin-left: 450px;
+    font-size: 50px;
+}
+
+ p {
+    font-size: 20px;
+    padding-top: 20px;
+    margin-left: 650px;
+}
+@media (min-width:249px) and (max-width:480px) {
+    .container {
+        max-width: 480px;
+        width: 100vw;
+        height: 100vh;
+        background-image: url(img/banner1.png);
+        background-repeat: no-repeat;
+        background-position: -789px;
+        
+    }
+    /*---------navegação-------------*/
+    nav {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+    nav ul {
+        display: flex;
+        margin-top: 30px;
+        margin-right: 590px;
+        list-style: none;
+    }
+    nav ul li {
+        padding-left: 60px;
+        margin-top: 50px;
+        font-size: 15px;
+    }
+    
+    /*---------conteudo principal-------------*/
+  h1{ 
+    margin: 0 auto;
+    padding-right: 70px;
+    font-size: 30px;
+  }
+  p {
+    margin: 0 auto;
+    font-size: 15px;
+    padding-right: 90px;
+    margin-left: 30px;
+  }
+}
