@@ -1,10 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Alice&display=swap');
+
+
 * {
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
+	font-family: "Alice";
 }
 body {
 	background-image: url(img/fogo.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
 }
+.cardapio {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.item {
+    width: 300px;
+    margin: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.imagem img {
+    width: 100%;
+    height: auto;
+    border-bottom: 1px solid #ccc;
+}
+
+.descricao {
+    padding: 10px;
+}
+
+.descricao h2 {
+    margin-top: 0;
+    font-size: 20px;
+}
+
+.descricao p {
+    margin: 5px 0;
+}
+
+.carrinho {
+    width: 30px;
+}
+
+/*---------------------------------------*/
