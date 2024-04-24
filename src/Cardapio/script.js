@@ -16,3 +16,15 @@ function calcularTotal() {
     }
     return total.toFixed(2);
 }
+
+
+
+function enviarPedidoParaWhatsApp() {
+    var itens = document.querySelectorAll('#itensCarrinho li');
+    var detalhesPedido = "Pedido:\n";
+    itens.forEach(function(item) {
+        detalhesPedido += item.textContent.trim() + '\n';
+    });
+    var mensagemWhatsApp = encodeURIComponent(detalhesPedido);
+    window.location.href = "https://wa.me/seu_numerodetelefone/?text=" + mensagemWhatsApp;
+}

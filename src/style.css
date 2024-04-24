@@ -76,7 +76,7 @@ h1 {
         list-style: none;
     }
     nav ul li {
-        font-size: 12px;
+        font-size: 17px;
         
     }
     
@@ -235,7 +235,7 @@ h1 {
         flex-direction: column;
     }
     .pedido {
-        font-size: 20px;
+        font-size: 27px;
         margin-top: 90px;
 
     }
