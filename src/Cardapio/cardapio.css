@@ -1,3 +1,4 @@
+
 @import url('https://fonts.googleapis.com/css2?family=Alice&display=swap');
 
 
@@ -48,5 +49,24 @@ body {
 .carrinho {
     width: 30px;
 }
+.botao {
+    background-color: rgba(240, 248, 255, 0);
+}
+.compras {
+    background-color: rgba(255, 0, 0, 0.877);
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-family: "Alice";
+   padding-top: 20px;
+   padding-bottom: 20px;
+}
+.compras ul {
+    list-style: none;
+}
+
 
 /*---------------------------------------*/

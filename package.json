@@ -1,5 +1,10 @@
 {
+
+  "scripts": {
+    "dev": "npx tailwindcss -i ./Cardapio/cardapio.css -o ./Cardapio/output.css --watch"
+  },
   "devDependencies": {
     "tailwindcss": "^3.4.3"
   }
+  
 }

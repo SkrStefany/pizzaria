@@ -19,7 +19,7 @@
 					<h2>Calabresa</h2>
 					<p>Pizza de calabresa com azeitona preta.</p>
 					<p>Preço: R$ 60,00</p>
-					<span><a href="#"><img class="carrinho" src="img/carrinho-removebg-preview.png" alt=""></a></span>
+					<span><button class="botao" onclick="adicionarAoCarrinho('Calabresa', 60.00)"><img class="carrinho" src="img/carrinho-removebg-preview.png" alt=""></button></span>
 				</div>
 			</div>
 			<!-- Adicione mais itens conforme necessário -->
@@ -31,7 +31,7 @@
 					<h2>Queijo</h2>
 					<p>Pizza com Queijo e Calabresa.</p>
 					<p>Preço: R$ 65,00</p>
-					<span><a href="#"><img class="carrinho" src="img/carrinho-removebg-preview.png" alt=""></a></span>
+					<span><button class="botao" onclick="adicionarAoCarrinho('Queijo', 65.00)"><img class="carrinho" src="img/carrinho-removebg-preview.png" alt=""></button></span>
 				</div>
 			</div>
 			<div class="item">
@@ -42,7 +42,7 @@
 					<h2>Pimentão</h2>
 					<p>Pizza de Pimentão com Calabresa.</p>
 					<p>Preço: R$ 50,00</p>
-					<span><a href="#"><img class="carrinho" src="img/carrinho-removebg-preview.png" alt=""></a></span>
+					<span><button class="botao" onclick="adicionarAoCarrinho('Pimentão', 50.00)"><img class="carrinho" src="img/carrinho-removebg-preview.png" alt=""></button></span>
 				</div>
 			</div>
 			<div class="item">
@@ -53,7 +53,7 @@
 					<h2>Hortelã</h2>
 					<p>Pizza de Hortelã com pimentão.</p>
 					<p>Preço: R$ 90,00</p>
-					<span><a href="#"><img class="carrinho" src="img/carrinho-removebg-preview.png" alt=""></a></span>
+					<span><button class="botao" onclick="adicionarAoCarrinho('Hortelã', 90.00)"><img class="carrinho" src="img/carrinho-removebg-preview.png" alt=""></button></span>
 				</div>
 			</div>
 			<div class="item">
@@ -64,7 +64,7 @@
 					<h2>Cogumelo</h2>
 					<p>Pizza de Cogumelo com Pimentão verde e amarelo.</p>
 					<p>Preço: R$ 80,00</p>
-					<span><a href="#"><img class="carrinho" src="img/carrinho-removebg-preview.png" alt=""></a></span>
+					<span><button class="botao" onclick="adicionarAoCarrinho('Cogumelo', 80.00)"><img class="carrinho" src="img/carrinho-removebg-preview.png" alt=""></button></span>
 				</div>
 			</div>
 			<div class="item">
@@ -75,10 +75,19 @@
 					<h2>Peru</h2>
 					<p>Pizza de Peru com salsa.</p>
 					<p>Preço: R$ 70,00</p>
-					<span><a href="#"><img class="carrinho" src="img/carrinho-removebg-preview.png" alt=""></a></span>
+					<span><button class="botao" onclick="adicionarAoCarrinho('Peru', 70.00)"><img class="carrinho" src="img/carrinho-removebg-preview.png" alt=""></button></span>
 				</div>
 			</div>
 		</div>
+	
+		<div class="compras">
+			<div id="compras">
+		<h2>Carrinho de Compras</h2>
+		<ul id="itensCarrinho"></ul>
+		<p id="totalCarrinho">Total: R$ 0,00</p>
+		</div>
+		</div>
+		
 
 		
 	
