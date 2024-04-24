@@ -269,7 +269,7 @@ footer {
     align-items: center;
 }
 .agradecimento {
-    margin-right: 30%;
+   
 }
 .agradecimento h1 {
     color: white;
@@ -278,11 +278,15 @@ footer {
 .contato {
     display: flex;
     flex-direction: column;
-    margin-right: 10%;
+    
     color: white;
 }
 .contato h1 {
     color: white;
+}
+.inf {
+    display: flex;
+    margin-right: 10%;
 }
 
 
